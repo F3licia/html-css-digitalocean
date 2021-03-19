@@ -1,6 +1,11 @@
-[class*="col-"] {
+/*[class*="col-"] {
     border: 1px solid gray;
     min-height: 10px;
+}
+*/
+
+body{
+    color: #031c4e;
 }
 
 img.my-logo{
@@ -72,17 +77,33 @@ form .btn {
     background-size: 25px 25px;
 
 }
-
 .my-form-text{
-    color: #031c4e;
     line-height: 1.5;
     font-weight: bolder;
 }
 
+.my-list{
+    border-left: 2px solid lightgray;
+    line-height: 2.5;
+    font-size: 18px;
+}
+
+
+
 .blue{
     color: #006aff; 
+}
+.bg-gray{
+    background-color: #f3f5f9; 
 }
 .mg-0{
     margin: 0;
 }
+.ver-align{
+    font-size: 20px; 
+    line-height: 14;
+}
+
+
+
 
