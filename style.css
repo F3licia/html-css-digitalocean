@@ -28,16 +28,19 @@ body{
 
 /*---navbar---*/
 
-img.my-logo {    
+.my-logo {    
     width: 100%;
     padding-top: 7px;
     }
-    .my-box-logo {
+    .my-box-logo{
     height: 55px;
     width: 150px;
 }
 
-
+.fa.fa-bars.blue{
+    margin-top: 13px;
+    font-size: 20px ;
+}
 
 /*---sez-1---*/
 
@@ -209,12 +212,19 @@ footer{
   
 
 
-
-
-
-
-
     
-    
-    
-  
+    @media (min-width: 1px) and (max-width: 991px) {
+        .my-arrow,.navbar-nav{
+          display: none;
+        }
+        .mini-nav .fa.fa-bars {
+            display: block
+          }
+    }
+
+     @media (min-width: 992px) {
+        .mini-nav .fa.fa-bars {
+          display: none;
+        }
+       
+    }
