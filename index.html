@@ -17,34 +17,38 @@
             <div class="container">
                     <div class="row">
 
-                            <div class="col-lg-3 col-md-3 col-sm-3 col-xs-3">
+                            <div class="col-lg-3 col-md-2 col-sm-3 col-xs-3">
                                     <a class="navbar-header" href="#"></a>
                                         <div class="my-box-logo">
                                         <img class="my-logo" alt="Brand" src="img/logo.png">
                                         </div>
                             </div>
 
-                            <div class="col-xs-9 navbar-right text-right"> 
+                            <div class="col-sm-9 col-xs-9 text-right"> 
                                    <div class="mini-nav"><i class="fa fa-bars blue" aria-hidden="true"></i></div>
                             </div>
 
-                            <div class="col-lg-5 col-md-5 col-sm-2 col-xs-2">
+                            <div class="col-lg-5 col-md-6 col-sm-3 col-xs-2">
                             
                                 <ul class="nav navbar-nav">
-                                    <li role="presentation"><a href="#">Products</a></li>
+                                    <li role="presentation"><a href="#">Products <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
                                     <li role="presentation"><a href="#">Customers</a></li>
-                                    <li role="presentation"><a href="#">Community</a></li>
+                                    <li role="presentation"><a href="#">Community <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
                                     <li role="presentation"><a href="#">Pricing</a></li>
                                 </ul>
                             </div>
 
-                            <div class="col-lg-4 col-md-4 col-sm-2 col-xs-2">
-                           
+                            <div class="col-lg-4 col-md-4 col-sm-3 col-xs-2">
+
+                                <div class="nav my-box-logo navbar-right">
+                                    <button>SignUp</button>
+                                </div>
                                 <ul class="nav navbar-nav navbar-right">
                                     <li role="presentation"><a href="#">Docs</a></li>
-                                    <li role="presentation"><a href="#">Support</a></li>
+                                    <li role="presentation"><a href="#">Support <i class="fa fa-chevron-down" aria-hidden="true"></i></a></li>
                                     <li role="presentation"><a href="#">Login</a></li>
                                 </ul>
+                               
                             </div>
                     </div>
             </div>
@@ -79,7 +83,6 @@
                                           <input type="email" class="form-control" placeholder="Email">
                                         </div>
                                         
-
                                         <div class="form-group">
                                           <input type="password" class="form-control" placeholder="Password">
                                         </div>
@@ -101,7 +104,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-12 text-center">
-                        <h4>INNOVATIVE BUSINESS TRUST DIGITALOCEAN</h4>
+                        <h5><strong>INNOVATIVE BUSINESS TRUST DIGITALOCEAN</strong></h5>
                     </div>
 
                     <div class="col-lg-2 col-md-2 col-sm-2 col-xs-6 img-responsive text-center cstm-logo">
@@ -145,7 +148,7 @@
                 <div class="col-lg-10 col-lg-offset-1">
                    <div class="row">   
 
-                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 ">
+                        <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12">
                             <div class="my-list">
                                 <ul class=" text-left list-unstyled">
                                     <li>Deploy</li>
@@ -159,12 +162,12 @@
                         <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
                             <div class="row">   
                                         <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                <img src="img/cluster-deploy.svg" alt="">
+                                                <img class="bit-mg" src="img/cluster-deploy.svg" alt="">
                                                 <h4><strong>Cluster Deployments</strong></h4>
                                                 <h5>Provision multiple Droplets (virtual machines) in seconds whit our control panel, CLI, or directly against our API.</h5>
                                             </div>
                                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                <img src="img/optimized-compute.svg" alt="">
+                                                <img class="bit-mg" src="img/optimized-compute.svg" alt="">
                                                 <h4><strong>Optimize compute types</strong></h4>
                                                 <h5>Get the compute resources you need with Standard or Optimised Droplets.</h5>
                                             </div>        
@@ -173,12 +176,12 @@
                                 <div class="col-lg-8 col-md-8 col-sm-8 col-xs-8">
                                         <div class="row">
                                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                <img src="img/one-click.svg" alt="">
+                                                <img class="bit-mg" src="img/one-click.svg" alt="">
                                                 <h4><strong>One-Click apps</strong></h4>
                                                 <h5>Skip the install and configuration process with pre-built open source images supporting Rails, Cassandra, Docker, and more.</h5>
                                             </div>
                                             <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
-                                                <img src="img/global.svg" alt="">
+                                                <img class="bit-mg" src="img/global.svg" alt="">
                                                 <h4><strong>Global availability</strong></h4>
                                                 <h5>Deploy to any of our data center regions around the world.</h5>
                                             </div>  
@@ -206,16 +209,20 @@
                                         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">            
                                             <img class="ver-align img-responsive" src="img/slide.jpg" alt="">
                                         </div>
-                                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center blue ">
-                                          <h4>Create compute servers in 55 seconds or less.</h4>
-                                          <i class="fa fa-circle" aria-hidden="true"></i>
-                                          <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                                          <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                                       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                                          <p class="bit-mg"><strong>Create compute servers in 55 seconds or less.</strong></p>
+                                          <h5 class="blue">
+                                              <i class="fa fa-circle" aria-hidden="true"></i>
+                                              <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                                              <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                                              <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                                        </h5>
                                        </div>
                                   </div>
                             </div>
-                            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"><span class="my-arrow">&#8250;</span> </div>
-                        
+                            <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">
+                                <span class="my-arrow">&#8250;</span>
+                            </div>
                         </div>            
                  </div>                  
             </div>
@@ -229,7 +236,7 @@
                      <h2><strong>The features your business needs</strong></h2>
                 </div>
                 <div class="col-lg-4 col-sm-4 col-xs-12">
-                    <img src="img/pred-pricing.svg" alt="">
+                    <img class="bit-mg" src="img/pred-pricing.svg" alt="">
                     <h4><strong>Predictable pricing</strong></h4>
                     <h5>Leave complex pricing structures behind. Always
                         know what you'll pay per month with a flat, industry-leading
@@ -237,20 +244,16 @@
                     <h5 class="blue"><strong>Pricing ></strong></h5>   
                 </div>
                 <div class="col-lg-4 col-sm-4 col-xs-12">
-                    <img src="img/world-class.svg" alt="">
-                    <h4><strong>Predictable pricing</strong></h4>
-                    <h5>Leave complex pricing structures behind. Always
-                        know what you'll pay per month with a flat, industry-leading
-                        pricing structure.</h5>
-                    <h5 class="blue"><strong>Pricing ></strong></h5>   
+                    <img class="bit-mg" src="img/world-class.svg" alt="">
+                    <h4><strong>World-class service</strong></h4>
+                    <h5>Free around the clock technical support for all customers. You'll feel the love.</h5>
+                    <h5 class="blue"><strong>Support ></strong></h5>   
                 </div>
                 <div class="col-lg-4 col-sm-4 col-xs-12">
-                    <img src="img/reliable-platform.svg" alt="">
-                    <h4><strong>Predictable pricing</strong></h4>
-                    <h5>Leave complex pricing structures behind. Always
-                        know what you'll pay per month with a flat, industry-leading
-                        pricing structure.</h5>
-                    <h5 class="blue"><strong>Pricing ></strong></h5>   
+                    <img class=".bit-mg" src="img/reliable-platform.svg" alt="">
+                    <h4><strong>Reliable platform</strong></h4>
+                    <h5>More than 100,000 developer teams worldwide trust DigitalOcean to support their business with a 99.99% uptime SLA for allservice.</h5>
+                    <h5 class="blue"><strong>Security ></strong></h5>   
                 </div>
             </div>
     </div>
@@ -353,11 +356,11 @@
 
                                             </div>
                                           </div>
-                                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center blue">
-                                              <i class="fa fa-circle" aria-hidden="true"></i>
+                                          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 bit-mg">
+                                              <h5 class="text-center blue"><i class="fa fa-circle" aria-hidden="true"></i>
                                               <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                                              <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                                            </div>
+                                              <i class="fa fa-circle-thin" aria-hidden="true"></i></h5>
+                                        </div>
                                       </div>
                                 </div>
                                 <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1"><span class="my-arrow">&#8250;</span> </div>
@@ -383,11 +386,20 @@
     <div class="container">
         <div class="row">
 
-            <div class="col-lg-4 col-md-12 col-xs-12">
-                <p>&#169;2018 DigitalOcean, LLC. All right reserved.
-                Proudly made in NY</p>
+            <div class="col-lg-4 col-md-12 col-sm-12">
+                <img class="bit-mg" src="img/logo-small.svg" alt="logo-small">
+                
+               <p>&#169; 2018 DigitalOcean, LLC. All right reserved.<br>
+                 Proudly made in NY</p>
+                <p>
+                  <i class="fa fa-twitter" aria-hidden="true"></i>&nbsp;
+                  <i class="fa fa-facebook-square" aria-hidden="true"></i>&nbsp;
+                  <i class="fa fa-instagram" aria-hidden="true"></i>&nbsp;
+                  <i class="fa fa-youtube-play" aria-hidden="true"></i>&nbsp;
+                  <i class="fa fa-linkedin-square" aria-hidden="true"></i>&nbsp;
+               </p>
             </div>
-            <div class="col-lg-2 col-md-6 col-xs-12">
+            <div class="col-lg-2 col-md-6 col-sm-12">
                 <ul class="list-unstyled">
                     <li>Company</li>
                     <li>About</li>
@@ -402,52 +414,48 @@
 
                 </ul>
             </div>
-            <div class="col-lg-2 col-md-6 col-xs-12">
+            <div class="col-lg-2 col-md-6 col-sm-12">
                 <ul class="list-unstyled">
-                    <li>Company</li>
-                    <li>About</li>
-                    <li>Leadership</li>
-                    <li>Blog</li>
-                    <li>Careers</li>
-                    <li>Partner Network</li>
-                    <li>Referral Program</li>
-                    <li>Events</li>
-                    <li>Press</li>
-                    <li>Legal & Security</li>
+                    <li>Products</li>
+                    <li>Droplets</li>
+                    <li>Spaces</li>
+                    <li>Kubernetes</li>
+                    <li>Load Balances</li>
+                    <li>Block Storage</li>
+                    <li>Tools & Integrations</li>
+                    <li>One-Click Apps</li>
+                    <li>API</li>
+                    <li>Pricing</li>
+                    <li>Documentation</li>
+                    <li>Relase Notes</li>
                 </ul>
             </div>
-            <div class="col-lg-2 col-md-6 col-xs-12">
+            <div class="col-lg-2 col-md-6 col-sm-12">
                 <ul class="list-unstyled">
-                    <li>Company</li>
-                    <li>About</li>
-                    <li>Leadership</li>
-                    <li>Blog</li>
-                    <li>Careers</li>
-                    <li>Partner Network</li>
-                    <li>Referral Program</li>
-                    <li>Events</li>
-                    <li>Press</li>
-                    <li>Legal & Security</li>
+                    <li>Community</li>
+                    <li>Tutorials</li>
+                    <li>Meetups</li>
+                    <li>Q&A</li>
+                    <li>Write for Donations</li>
+                    <li>Droplets for Demos</li>
+                    <li>Hatch</li>
+                    <li>Shop Swag</li>
+                    <li>Research Program</li>
+                    <li>Currents Research</li>
+                    <li>Open Source</li>
                 </ul>
             </div>
-            <div class="col-lg-2 col-md-6 col-xs-12">
+            <div class="col-lg-2 col-md-6 col-sm-12">
                 <ul class="list-unstyled">
-                    <li>Company</li>
-                    <li>About</li>
-                    <li>Leadership</li>
-                    <li>Blog</li>
-                    <li>Careers</li>
-                    <li>Partner Network</li>
-                    <li>Referral Program</li>
-                    <li>Events</li>
-                    <li>Press</li>
-                    <li>Legal & Security</li>
+                    <li>Support</li>
+                    <li>Contact support</li>
+                    <li>FAQ</li>
+                    <li>Network Status</li>
                 </ul>
             </div>
         </div>
     </div>
 </footer>
-
 
 <div class="help">
     <div class="help-note">
