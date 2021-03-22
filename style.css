@@ -30,7 +30,7 @@ body,.nav{
     margin: 0;
 }
 
-h5,h4{
+h5, .section-title h4{
     line-height: 1.5;
     opacity: 60%;
     font-weight: 600;
