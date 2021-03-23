@@ -248,7 +248,7 @@ footer li:first-child{
 
     
     @media (min-width: 1px) and (max-width: 991px) {
-        .my-arrow,.navbar-nav{
+        .my-arrow,.navbar-nav,.nav.my-box-logo button{
           display: none;
         }
         .mini-nav .fa.fa-bars {
