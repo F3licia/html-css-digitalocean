@@ -8,6 +8,16 @@ body,.nav{
      line-height: 1.5;
 }
 
+a {
+    color: #337ab7;
+    font-weight: 600;
+    text-decoration: none;
+}
+a:hover {
+    color: #337ab7;
+    text-decoration: none;
+}
+
 [class*="section"] {
     padding-top: 30px;
     padding-bottom: 30px;
@@ -63,12 +73,13 @@ nav.my-navbar li,.fa.fa-bars.blue{
 }
 
 .nav button {
-color: #006aff;
- background-color: white;
+ color: #006aff;
+
  padding: 5px 5px;
  border: 1px solid #006aff;
  border-radius: 5px;
  text-decoration: none;
+ background-color: white;
 }
 
 /*---sez-1---*/
@@ -167,7 +178,7 @@ span.my-arrow {
         margin-left: 50px ;
       
         }
-    .cities-list li:last-child {
+    .cities-list a{
         float: right;
         color:#00d7d2;
     }
